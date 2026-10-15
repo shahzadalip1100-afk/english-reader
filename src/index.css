@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-urdu {
+    font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', Tahoma, sans-serif;
+    line-height: 2.2;
+    direction: rtl;
+  }
+  
+  .font-english {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+}
+
+/* Custom styling for reading highlights */
+.word-token {
+  transition: all 0.15s cubic-bezier(0.16, 1, 0.3, 1);
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 0.375rem;
+  padding: 0.125rem 0.25rem;
+  margin: 0.0625rem 0.125rem;
+}
+
+.word-token:hover {
+  background-color: #FEF3C7; /* amber-100 */
+  color: #92400E; /* amber-800 */
+  transform: translateY(-1px);
+}
+
+.word-token.active-speaking {
+  background-color: #FBBF24 !important; /* amber-400 */
+  color: #78350F !important; /* amber-900 */
+  box-shadow: 0 0 0 2px #D97706;
+  font-weight: 700;
+  transform: scale(1.08);
+}

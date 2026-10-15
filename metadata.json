@@ -1,0 +1,6 @@
+{
+  "name": "Kids English-Urdu Digital Library & Reader (ڈیجیٹل کتب خانہ و انگلش ریڈر)",
+  "description": "Interactive English-Urdu digital book library with front cover previews, online reading with synchronized word pronunciation, one-click book downloads, and custom book upload support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
